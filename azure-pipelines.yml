@@ -1,0 +1,36 @@
+trigger:
+  branches:
+    include:
+    - main
+
+pool:
+  name: myUbuntuAgentsPool
+
+variables:
+- group: VariableGroupName  # Replace with the name of your variable group if you are using one
+- name: dockerId
+  value: 'dhruba121'  # Replace with your Docker Hub username
+- name: imageName
+  value: 'my-playwright-image'  # Replace with the name you want for your image
+- name: dockerPassword
+  value: $(DOCKER_HUB_ACCESS_TOKEN)  # Using pipeline secret variable
+- name: containerRegistry
+  value: 'https://index.docker.io/v1/'  # Or use your specific container registry URL
+
+steps:
+- script: docker build -t $(dockerId)/$(imageName):$(Build.BuildId) .
+  displayName: 'Docker Build'
+
+- script: docker login -u $(dockerId) -p $(dockerPassword) $(containerRegistry)
+  displayName: 'Docker Login'
+
+- script: docker push $(dockerId)/$(imageName):$(Build.BuildId)
+  displayName: 'Docker Push'
+
+- script: |
+    docker rm -f mycontainer || true
+    docker run --name mycontainer $(dockerId)/$(imageName):$(Build.BuildId) npm run test -- --format progress
+  displayName: 'Run Tests in Docker Container'
+
+- script: docker logout $(containerRegistry)
+  displayName: 'Docker Logout'
