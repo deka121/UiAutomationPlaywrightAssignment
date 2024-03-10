@@ -62,18 +62,20 @@ npm install dotenv
 ![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/5e186c86-532f-460f-93dd-7d5f7682f0e3)
 
  
-**Understanding the Framework Structure**
-**.github:** This directory may contain GitHub Actions or workflows if CI/CD is integrated with GitHub.
-**node_modules:** Generated directory containing all the packages that npm has installed.
-**report: **This directory might be used to store test reports and logs. These can be generated in various formats like HTML, JSON, etc.
-**src:** The source directory where the bulk of your test code resides.
-**browser: **Contains browser-specific configurations and possibly custom utilities for browser interactions.
-**pages:** Contains Page Object Models, which are classes or functions representing web pages, encapsulating page-specific selectors and actions.
-**features:** Contains. feature files written in Gherkin language describing the BDD scenarios.
-**step_definitions: **This directory contains JavaScript files that translate the Gherkin steps from .feature files into executable code.
-**hooks.js: **A JavaScript file that can contain 'hooks' for setting up preconditions and cleanups (like before/after hooks in Cucumber).
-**.env, .env.js: **Environment variable files which can be used to set up different environments for testing (like staging, production, etc.).
-**Dockerfile:** If containerization is part of the project, this file defines the Docker container configuration. 
+## Understanding the Framework Structure
+
+- **.github**: Contains GitHub Actions or workflows if CI/CD is integrated with GitHub.
+- **node_modules**: Stores all the packages npm has installed.
+- **report**: Used for storing test reports and logs.
+- **src**: The main source directory for test code.
+- **browser**: Contains browser-specific configurations.
+- **pages**: Includes Page Object Models.
+- **features**: Contains `.feature` files with BDD scenarios.
+- **step_definitions**: JavaScript files translating Gherkin steps into executable code.
+- **hooks.js**: Contains 'hooks' for setting up preconditions and cleanups.
+- **.env, .env.js**: Environment variable files for different testing stages.
+- **Dockerfile**: Defines the Docker container configuration if used.
+
 
 
 **Exercise Instructions:**
