@@ -84,7 +84,7 @@ If you want to execute in headed mode please set **“headless attribute” to f
 
 
 
-## Exercise Instructions:
+**Exercise Instructions:**
 - Use https://automationintesting.online/ as the system under test
 - Write Automated UI Tests for the contact form in language/framework of choice (tests don't need to be exhaustive)
          - contact form can be found if you scroll down on the initial page that loads
