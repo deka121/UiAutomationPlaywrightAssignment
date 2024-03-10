@@ -1,6 +1,7 @@
-    						<div align="center">
-  <img src="https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/030b777a-fbfa-4613-895d-ab9f834def4b" alt="image">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/PATH/TO/IMAGE" alt="image">
 </div>
+
 
 **Playwright (JS binding) and Cucumber (BDD) **
 The Playwright framework with JavaScript bindings, integration of Cucumber for BDD and 
