@@ -12,7 +12,7 @@ Page Object Model (POM) design pattern establishes a robust platform for automat
 - **JavaScript**: The programming language for writing test code.
 - **Cucumber**: Integrated into the framework for Behavior-Driven Development (BDD).
 - **NPM**: The build tool for managing packages and running tasks.
-- **VSCode**: The preferred Integrated Development Environment (IDE) for writing TypeScript code.
+- **VSCode**: The preferred Integrated Development Environment (IDE) for writing JavaScript code.
 
 
 **Features**
