@@ -1,4 +1,4 @@
-                          ![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/7bfa1a03-a5d2-462c-a43e-b42008b2828f)
+    																														![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/93313f4a-f4ff-47fc-ac89-0e2ed582c706)
 
 
 **Playwright (JS binding) and Cucumber (BDD) **
@@ -44,6 +44,7 @@ This command installs all the dependencies defined in the **package.json file. *
 If you want to execute in headed mode please set **“headless attribute” to false **in browser Manager.js file
 
 **Please install below list of plugin – **
+
 ![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/5e186c86-532f-460f-93dd-7d5f7682f0e3)
 
  
