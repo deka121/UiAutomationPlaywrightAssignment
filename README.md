@@ -1,4 +1,5 @@
-![alt text](image.png)
+![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/7bfa1a03-a5d2-462c-a43e-b42008b2828f)
+
 
 Playwright (JS binding) and Cucumber (BDD) 
 The Playwright framework with JavaScript bindings, integration of Cucumber for BDD and 
