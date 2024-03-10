@@ -34,8 +34,8 @@ Here's a guide on how to use this project after downloading it:
 
 **Pre-requisites**
 Before running the project, ensure you have the following installed:
-**Node.js**: The runtime environment to execute the JavaScript code outside a web browser.
-**npm (Node Package Manager)**: To manage the project's dependencies. 
+-**Node.js**: The runtime environment to execute the JavaScript code outside a web browser.
+-**npm (Node Package Manager)**: To manage the project's dependencies. 
 
 
 **Setting Up the Project**
