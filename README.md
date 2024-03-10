@@ -47,7 +47,7 @@ Follow these steps to set up the project:
 
 2. **Install Dependencies**:
    Open a terminal and navigate to the project's root directory. Then, run the following command to install all dependencies defined in the `package.json` file:
-   ```sh``` 
+   ```sh
    npm install
 **Install Cucumber**: To install Cucumber for Behavior-Driven Development (BDD) testing, run: 
  ```sh``` 
