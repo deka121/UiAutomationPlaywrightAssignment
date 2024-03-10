@@ -3,7 +3,7 @@
 </div>
 
 
-**Playwright (JS binding) and Cucumber (BDD) **
+**Playwright (JS binding) and Cucumber (BDD)**
 The Playwright framework with JavaScript bindings, integration of Cucumber for BDD and 
 Page Object Model (POM) design pattern establishes a robust platform for automated browser testing that are both descriptive and human-readable. This combination enables test scenarios to be written in plain English, facilitating collaboration between developers, QA professionals, and non-technical stakeholders. The framework supports testing across multiple browsers, making it ideal for cross-browser validation. With the addition of Cucumber's BDD approach, the test automation suite serves not just as a testing tool but also as live documentation of the system's behaviour. 
 
@@ -18,7 +18,8 @@ Page Object Model (POM) design pattern establishes a robust platform for automat
 •	Supports execution of tests in different browsers.
 •	Supports running scenarios in parallel mode. 
 •	Flaky scenario can be Retried multiple times until either it passes or the maximum number of attempts is reached. You can enable this via the retry configuration option.
-•	The Page Object Model (POM) design pattern is implemented, enhancing test maintenance and reducing code duplication by encapsulating page-specific elements and interactions within **distinct classes.**
+•	The Page Object Model (POM) design pattern is implemented, enhancing test maintenance and reducing code duplication by encapsulating page-specific elements and interactions within 
+ distinct classes.
 •	Configuration are controlled by .env file such as BaseURL etc.
 •	Generates Cucumber HTML Report & JSON Report.
 •	Rerun only failed features
@@ -28,13 +29,13 @@ Page Object Model (POM) design pattern establishes a robust platform for automat
 **Get Started**
 Here's a guide on how to use this project after downloading it: 
 
-**Pre-requisites **
+**Pre-requisites**
 Before running the project, ensure you have the following installed:
 **Node.js**: The runtime environment to execute the JavaScript code outside a web browser.
 **npm (Node Package Manager)**: To manage the project's dependencies. 
 
 
-**Setting Up the Project **
+**Setting Up the Project**
 After downloading the project, you'll typically follow these steps: 
 
 **Unzip the Project:** If the project comes as a compressed file, extract it to your desired location. 
@@ -45,12 +46,12 @@ Then, run: npm install
 This command installs all the dependencies defined in the **package.json file. **
 If you want to execute in headed mode please set **“headless attribute” to false **in browser Manager.js file
 
-**Please install below list of plugin – **
+**Please install below list of plugin –** 
 
 ![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/5e186c86-532f-460f-93dd-7d5f7682f0e3)
 
  
-**Understanding the Framework Structure **
+**Understanding the Framework Structure**
 **.github:** This directory may contain GitHub Actions or workflows if CI/CD is integrated with GitHub.
 **node_modules:** Generated directory containing all the packages that npm has installed.
 **report: **This directory might be used to store test reports and logs. These can be generated in various formats like HTML, JSON, etc.
@@ -64,7 +65,7 @@ If you want to execute in headed mode please set **“headless attribute” to f
 **Dockerfile:** If containerization is part of the project, this file defines the Docker container configuration. 
 
 
-**Exercise Instructions: **
+**Exercise Instructions:**
 - Use https://automationintesting.online/ as the system under test
 - Write Automated UI Tests for the contact form in language/framework of choice (tests don't need to be exhaustive)
          - contact form can be found if you scroll down on the initial page that loads
@@ -94,6 +95,6 @@ Stretch Goal - Containerization: The tests have been containerized to run in a c
  
 
 
-Documentation: A README.md file is included, providing comprehensive instructions on the setup and execution of the project.
-Version Control and Access: The project has been committed to GitHub and Azure DevOps for easy access and future collaboration.
+**Documentation:** A README.md file is included, providing comprehensive instructions on the setup and execution of the project.
+**Version Control and Access:** The project has been committed to GitHub and Azure DevOps for easy access and future collaboration.
  
