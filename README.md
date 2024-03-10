@@ -14,17 +14,18 @@ Page Object Model (POM) design pattern establishes a robust platform for automat
 •	VSCode as the preferred IDE for writing typescript code.
 
 **Features**
-•	This testing framework supports Behaviour Driven Development (BDD). Tests are written in plain English text called Gherkin
-•	Supports execution of tests in different browsers.
-•	Supports running scenarios in parallel mode. 
-•	Flaky scenario can be Retried multiple times until either it passes or the maximum number of attempts is reached. You can enable this via the retry configuration option.
-•	The Page Object Model (POM) design pattern is implemented, enhancing test maintenance and reducing code duplication by encapsulating page-specific elements and interactions within 
- distinct classes.
-•	Configuration are controlled by .env file such as BaseURL etc.
-•	Generates Cucumber HTML Report & JSON Report.
-•	Rerun only failed features
-•	Dockerization
-•	Easy and simple integration to CI/CD tools like AzureDevOps.
+- This testing framework supports Behaviour Driven Development (BDD). Tests are written in plain English text called Gherkin.
+- Supports execution of tests in different browsers.
+- Supports running scenarios in parallel mode.
+- Flaky scenario can be Retried multiple times until either it passes or the maximum number of attempts is reached. You can enable this via the retry configuration option.
+- The Page Object Model (POM) design pattern is implemented, enhancing test maintenance and reducing code duplication by encapsulating page-specific elements and interactions within 
+  distinct classes.
+- Configuration are controlled by .env file such as BaseURL etc.
+- Generates Cucumber HTML Report & JSON Report.
+- Rerun only failed features.
+- Dockerization.
+- Easy and simple integration to CI/CD tools like AzureDevOps.
+
 
 **Get Started**
 Here's a guide on how to use this project after downloading it: 
