@@ -39,13 +39,21 @@ Before running the project, ensure you have the following installed:
 **Setting Up the Project**
 After downloading the project, you'll typically follow these steps: 
 
-**Unzip the Project:** If the project comes as a compressed file, extract it to your desired location. 
--**Install Dependencies:** Open a terminal and navigate to the project's root directory. 
-Then, run: npm install
--**Install Cucumber:** npm install @cucumber/cucumber 
--**Install dotenv** for environment variable management: npm install dotenv 
- This command installs all the dependencies defined in the **package.json file. **
- If you want to execute in headed mode please set **“headless attribute” to false **in browser Manager.js file
+## Setup Instructions
+
+Follow these steps to set up the project:
+
+1. **Unzip the Project**: If the project is delivered as a compressed file, extract it to your desired location.
+
+2. **Install Dependencies**:
+   Open a terminal and navigate to the project's root directory. Then, run the following command to install all dependencies defined in the `package.json` file:
+   ```sh
+   npm install
+**Install Cucumber**: To install Cucumber for Behavior-Driven Development (BDD) testing, run: 
+npm install @cucumber/cucumber
+
+**Install dotenv**:For managing environment variables, install the dotenv package:
+npm install dotenv
 
 **Please install below list of plugin –** 
 
