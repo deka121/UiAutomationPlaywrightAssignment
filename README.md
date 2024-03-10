@@ -1,4 +1,4 @@
-    																														![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/93313f4a-f4ff-47fc-ac89-0e2ed582c706)
+    						![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/840c5878-c830-4c96-87a8-5e785f4bb19d)
 
 
 **Playwright (JS binding) and Cucumber (BDD) **
