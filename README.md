@@ -50,9 +50,11 @@ Follow these steps to set up the project:
    ```sh
    npm install
 **Install Cucumber**: To install Cucumber for Behavior-Driven Development (BDD) testing, run: 
+ ```sh
 npm install @cucumber/cucumber
 
-**Install dotenv**:For managing environment variables, install the dotenv package:
+**Install dotenv**: For managing environment variables, install the dotenv package:
+ ```sh
 npm install dotenv
 
 **Please install below list of plugin –** 
