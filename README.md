@@ -7,11 +7,13 @@
 The Playwright framework with JavaScript bindings, integration of Cucumber for BDD and 
 Page Object Model (POM) design pattern establishes a robust platform for automated browser testing that are both descriptive and human-readable. This combination enables test scenarios to be written in plain English, facilitating collaboration between developers, QA professionals, and non-technical stakeholders. The framework supports testing across multiple browsers, making it ideal for cross-browser validation. With the addition of Cucumber's BDD approach, the test automation suite serves not just as a testing tool but also as live documentation of the system's behaviour. 
 
-**The tech stack used in this project are:**
-  -JavaScript as the programming language for writing test code
-  -Cucumber integrated in to the framework
-  -NPM as the build tool
-  -VSCode as the preferred IDE for writing typescript code.
+## The Tech Stack Used in This Project
+
+- **JavaScript**: The programming language for writing test code.
+- **Cucumber**: Integrated into the framework for Behavior-Driven Development (BDD).
+- **NPM**: The build tool for managing packages and running tasks.
+- **VSCode**: The preferred Integrated Development Environment (IDE) for writing TypeScript code.
+
 
 **Features**
 - This testing framework supports Behaviour Driven Development (BDD). Tests are written in plain English text called Gherkin.
@@ -56,6 +58,10 @@ npm install @cucumber/cucumber
 **Install dotenv**: For managing environment variables, install the dotenv package:
  ```sh``` 
 npm install dotenv
+
+This command installs all the dependencies defined in the package.json file. 
+If you want to execute in headed mode please set **“headless attribute” to false** in browserManager.js file
+
 
 **Please install below list of plugin –** 
 
