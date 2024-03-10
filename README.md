@@ -32,11 +32,12 @@ Page Object Model (POM) design pattern establishes a robust platform for automat
 **Get Started**
 Here's a guide on how to use this project after downloading it: 
 
-**Pre-requisites**
-Before running the project, ensure you have the following installed:
--Node.js: The runtime environment to execute the JavaScript code outside a web browser.
--npm (Node Package Manager): To manage the project's dependencies. 
+## Pre-requisites
 
+Before running the project, ensure you have the following installed:
+
+- **Node.js**: The runtime environment to execute the JavaScript code outside of a web browser.
+- **npm** (Node Package Manager): To manage the project's dependencies.
 
 **Setting Up the Project**
 After downloading the project, you'll typically follow these steps: 
