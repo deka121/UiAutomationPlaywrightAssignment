@@ -8,10 +8,10 @@ The Playwright framework with JavaScript bindings, integration of Cucumber for B
 Page Object Model (POM) design pattern establishes a robust platform for automated browser testing that are both descriptive and human-readable. This combination enables test scenarios to be written in plain English, facilitating collaboration between developers, QA professionals, and non-technical stakeholders. The framework supports testing across multiple browsers, making it ideal for cross-browser validation. With the addition of Cucumber's BDD approach, the test automation suite serves not just as a testing tool but also as live documentation of the system's behaviour. 
 
 **The tech stack used in this project are:**
-•	JavaScript as the programming language for writing test code
-•	Cucumber integrated in to the framework
-•	NPM as the build tool
-•	VSCode as the preferred IDE for writing typescript code.
+  -JavaScript as the programming language for writing test code
+  -Cucumber integrated in to the framework
+  -NPM as the build tool
+  -VSCode as the preferred IDE for writing typescript code.
 
 **Features**
 - This testing framework supports Behaviour Driven Development (BDD). Tests are written in plain English text called Gherkin.
@@ -87,16 +87,22 @@ npm install dotenv
 - Check in somewhere we are able to access (e.g. GitHub) 
 
 
-**Exercise Summary:**
-SUT (System Under Test): The website "https://automationintesting.online/" was used as the system under test.
-Automated UI Tests: Two main automated tests have been crafted for the contact form using the chosen language/framework. 
-The first test is dedicated to validating the functionality of the form fields and successful submission.
-The second test focuses on verifying the error messages that appear when form submission criteria are not met.
-Stretch Goal - Containerization: The tests have been containerized to run in a consistent environment, utilizing a virtual machine and an Azure DevOps (ADO) agent. [PF Below Image]
-•	Docker Build: A Docker image is created from a Dockerfile located in the current directory. The image is tagged with a unique identifier composed of the Docker ID, image name, and build ID.
-•	Docker Login: Performs authentication with the Docker container registry using secure credentials.
-•	Docker Push: The tagged Docker image is pushed to the container registry, making it ready for deployment.
-•	Docker Logout: Ensures security by logging out from the container registry after the push operation.
+## Exercise Summary
+
+- **SUT (System Under Test)**: The website "https://automationintesting.online/" was used as the system under test.
+  
+- **Automated UI Tests**: 
+  - The first test validates the functionality of the form fields and successful submission.
+  - The second test verifies the error messages that appear when form submission criteria are not met.
+
+- **Stretch Goal - Containerization**: The tests have been containerized to run in a consistent environment, utilizing a virtual machine and an Azure DevOps (ADO) agent.
+
+  - **Docker Build**: A Docker image is created from a Dockerfile located in the current directory. The image is tagged with a unique identifier composed of the Docker ID, image name, and build ID.
+  - **Docker Login**: Performs authentication with the Docker container registry using secure credentials.
+  - **Docker Push**: The tagged Docker image is pushed to the container registry, making it ready for deployment.
+  - **Docker Logout**: Ensures security by logging out from the container registry after the push operation.
+
+Please find below the images demonstrating the containerization process:
 ![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/ee7f6a92-c5cc-45d3-8a6f-c0bed9a3ed49)
 ![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/445c8d0b-5dc6-4fb9-b3f7-14791258103b)
 
