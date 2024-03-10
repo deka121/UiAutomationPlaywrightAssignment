@@ -1,7 +1,7 @@
 const { chromium, firefox, webkit } = require("@playwright/test");
 
 const options = {
-  headless: false,
+  headless: true,
 };
 
 const invokeBrowser = () => {
