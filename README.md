@@ -114,13 +114,6 @@ Please find below the images demonstrating the containerization process:
 ![image](https://github.com/deka121/UiAutomationPlaywrightAssignment/assets/37321334/445c8d0b-5dc6-4fb9-b3f7-14791258103b)
 
 **Documentation**: A README.md file is included, providing comprehensive instructions on the setup and execution of the project.
+
 **Version Control and Access**: The project has been committed to GitHub and Azure DevOps for easy access and future collaboration.
-
-
-  
- 
-
-
-**Documentation:** A README.md file is included, providing comprehensive instructions on the setup and execution of the project.
-**Version Control and Access:** The project has been committed to GitHub and Azure DevOps for easy access and future collaboration.
  
